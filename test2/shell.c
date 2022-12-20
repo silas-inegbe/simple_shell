@@ -21,7 +21,7 @@ void shell(int ac, char **av, char **env)
 		prompt();
 		line = _getline();
 		args = split_line(line);
-		flow = brigde(args[0], args);
+		flow = bridge(args[0], args);
 		if (flow == 2)
 		{
 			filename = args[0];
