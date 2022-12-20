@@ -9,7 +9,7 @@
  */
 void *smart_alloc(size_t size)
 {
-	void *prt;
+	void *ptr;
 
 	ptr = malloc(size);
 	if (ptr == NULL)
