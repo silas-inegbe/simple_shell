@@ -38,7 +38,7 @@ void loop(void)
 	while (1)
 	{
 		inchild = 0;
-		_puts("Hosh$ ");
+		_puts("My_Shell$ ");
 		if (getline(&input, &size, stdin) != -1)
 		{
 			if (input[0] != '\n' && input[0] != '#')
